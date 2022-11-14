@@ -431,7 +431,7 @@ data:
 
 ---
 
-apiVersion: apps/v1beta2
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: php-fpm-benchmark-php
@@ -555,7 +555,7 @@ data:
 
 ---
 
-apiVersion: apps/v1beta2
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: php-fpm-benchmark-nginx
